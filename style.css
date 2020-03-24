@@ -1,0 +1,72 @@
+body{
+Background: #fafafa; padding:0 15px 00; font-family: sans-serif;}
+.cssradio input[type="radio"]{display:none;}
+.cssradio label{
+    line-height: 140px;
+    height: 150px;
+    width: 150px;
+   background: #00BFFF;
+    display: inline-block;
+    text-align: center;
+border-radius: 10px;
+vertical-align: middle;
+cursor: pointer;
+  margin: 0 auto;
+    padding: 0;
+  border: 1px outset lightblue;
+    text-decoration: none;-->
+
+}
+.cssradio input:checked + label{
+    background: #b3ecff;
+    font-weight: bold;
+}
+.csscheckbox input[type="checkbox"]{display:none;}
+.csscheckbox label{
+   line-height: 45px;
+    height: 150px;
+    width: 150px;
+    background: #00BFFF;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px outset lightblue;
+    text-decoration: none;
+}
+.csscheckbox input:checked + label{
+    background: #b3ecff;
+    font-weight: bold;
+}
+.cssradio1 input[type="radio"]{display:none;}
+.cssradio1 label{
+  float: left;
+      clear: none;
+      margin: 2px 4px 0 2px;
+
+}
+.cssradio1 input:checked + label{
+    background: #b3ecff;
+    font-weight: bold;}
+
+.containerdivNewLine { clear: left; }
+
+.cssradio2 input[type="radio"]{display:none;}
+.cssradio2 label{
+  float: left;
+      clear: none;
+      margin: 2px 4px 0 2px;
+
+
+}
+.cssradio2 input:checked + label{
+    background: #b3ecff;
+    font-weight: bold;}
+
+
+
+
+
